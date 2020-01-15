@@ -1,0 +1,115 @@
+body {
+    font-family: roboto, sans-serif;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+h1 {
+    color:blue;
+}
+
+/* Movie List */
+.Original{
+    color: brown;
+}
+
+.additional{
+    color: crimson;
+}
+
+#show1{
+    color: darkcyan;
+}
+#show2{
+    color: darkorange;
+}
+#show3{
+    color: darkslategray;
+}
+#show4{
+    color: purple;
+}
+#show5{
+    color: rgb(31, 53, 44);
+}
+
+/* Ul's */
+.main-ul {
+    color: mediumturquoise;
+}
+.star{
+    color: olive;
+}
+
+#wars {
+    color: olivedrab;
+}
+
+/* Page Styling */
+h2, p, .readme-wrapper {
+    text-align: center;
+    text-decoration: none;
+}
+
+#div-color-light{
+    background-color: khaki;
+}
+
+.box1{
+    position: relative;
+}
+
+
+.boxes {
+    display: block;
+    width: 30em;
+    margin: 4em 0;
+    padding: 10px;
+    border: brown;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+
+/* ul box */
+
+.ul-box{
+    margin: 10px 0;
+    width: 10em;
+    display: block;
+    border: black;
+    border-style: solid;
+    border-radius: 2px;
+
+
+}
+
+/* Box circle */
+.div-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    position: relative;
+    top: 60px;
+    left: 9.5em;
+}
+
+.accent-color {
+    color: brown;
+}
+
+/* Read me */
+a:hover {
+    
+    font-weight: 700;
+    color: aliceblue;
+    cursor: pointer;
+    
+  }
+
+  a:after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    overflow: hidden;
+    visibility: hidden;
